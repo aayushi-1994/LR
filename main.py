@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("SOCR-HeightWeight.csv")
 
 height = df["Height"].tolist()
 weight = df["Weight"].tolist()
